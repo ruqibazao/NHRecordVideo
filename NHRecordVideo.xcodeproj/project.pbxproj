@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC87AAC2006570100B230F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87AAB2006570100B230F7 /* AppDelegate.m */; };
+		0AC87AB22006570100B230F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC87AB02006570100B230F7 /* Main.storyboard */; };
+		0AC87AB42006570100B230F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC87AB32006570100B230F7 /* Assets.xcassets */; };
+		0AC87AB72006570100B230F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC87AB52006570100B230F7 /* LaunchScreen.storyboard */; };
+		0AC87ABA2006570100B230F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87AB92006570100B230F7 /* main.m */; };
+		0AC87AC42006570100B230F7 /* NHRecordVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87AC32006570100B230F7 /* NHRecordVideoTests.m */; };
+		0AC87ACF2006570100B230F7 /* NHRecordVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87ACE2006570100B230F7 /* NHRecordVideoUITests.m */; };
+		0AC87AE0200657CC00B230F7 /* NHPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87ADF200657CC00B230F7 /* NHPlayViewController.m */; };
+		0AC87AE42006584900B230F7 /* NHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87AE22006584900B230F7 /* NHMainViewController.m */; };
+		0AC87AE8200659B900B230F7 /* NHPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC87AE7200659B900B230F7 /* NHPickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC87AC02006570100B230F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC87A9F2006570000B230F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC87AA62006570000B230F7;
+			remoteInfo = NHRecordVideo;
+		};
+		0AC87ACB2006570100B230F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC87A9F2006570000B230F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC87AA62006570000B230F7;
+			remoteInfo = NHRecordVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC87AA72006570000B230F7 /* NHRecordVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHRecordVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC87AAA2006570000B230F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AC87AAB2006570100B230F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AC87AB12006570100B230F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AC87AB32006570100B230F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AC87AB62006570100B230F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AC87AB82006570100B230F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC87AB92006570100B230F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AC87ABF2006570100B230F7 /* NHRecordVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHRecordVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC87AC32006570100B230F7 /* NHRecordVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHRecordVideoTests.m; sourceTree = "<group>"; };
+		0AC87AC52006570100B230F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC87ACA2006570100B230F7 /* NHRecordVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHRecordVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC87ACE2006570100B230F7 /* NHRecordVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHRecordVideoUITests.m; sourceTree = "<group>"; };
+		0AC87AD02006570100B230F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC87ADE200657CC00B230F7 /* NHPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHPlayViewController.h; sourceTree = "<group>"; };
+		0AC87ADF200657CC00B230F7 /* NHPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHPlayViewController.m; sourceTree = "<group>"; };
+		0AC87AE12006584900B230F7 /* NHMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHMainViewController.h; sourceTree = "<group>"; };
+		0AC87AE22006584900B230F7 /* NHMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHMainViewController.m; sourceTree = "<group>"; };
+		0AC87AE6200659B900B230F7 /* NHPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHPickerController.h; sourceTree = "<group>"; };
+		0AC87AE7200659B900B230F7 /* NHPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHPickerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC87AA42006570000B230F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC87ABC2006570100B230F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC87AC72006570100B230F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC87A9E2006570000B230F7 = {
+			isa = PBXGroup;
+			children = (
+				0AC87AA92006570000B230F7 /* NHRecordVideo */,
+				0AC87AC22006570100B230F7 /* NHRecordVideoTests */,
+				0AC87ACD2006570100B230F7 /* NHRecordVideoUITests */,
+				0AC87AA82006570000B230F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC87AA82006570000B230F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC87AA72006570000B230F7 /* NHRecordVideo.app */,
+				0AC87ABF2006570100B230F7 /* NHRecordVideoTests.xctest */,
+				0AC87ACA2006570100B230F7 /* NHRecordVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC87AA92006570000B230F7 /* NHRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				0AC87AAA2006570000B230F7 /* AppDelegate.h */,
+				0AC87AAB2006570100B230F7 /* AppDelegate.m */,
+				0AC87AE12006584900B230F7 /* NHMainViewController.h */,
+				0AC87AE22006584900B230F7 /* NHMainViewController.m */,
+				0AC87ADE200657CC00B230F7 /* NHPlayViewController.h */,
+				0AC87ADF200657CC00B230F7 /* NHPlayViewController.m */,
+				0AC87ADD2006576B00B230F7 /* UIImagePicker */,
+				0AC87ADC2006576000B230F7 /* Tools */,
+				0AC87AB02006570100B230F7 /* Main.storyboard */,
+				0AC87AB32006570100B230F7 /* Assets.xcassets */,
+				0AC87AB52006570100B230F7 /* LaunchScreen.storyboard */,
+				0AC87AB82006570100B230F7 /* Info.plist */,
+				0AC87AB92006570100B230F7 /* main.m */,
+			);
+			path = NHRecordVideo;
+			sourceTree = "<group>";
+		};
+		0AC87AC22006570100B230F7 /* NHRecordVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC87AC32006570100B230F7 /* NHRecordVideoTests.m */,
+				0AC87AC52006570100B230F7 /* Info.plist */,
+			);
+			path = NHRecordVideoTests;
+			sourceTree = "<group>";
+		};
+		0AC87ACD2006570100B230F7 /* NHRecordVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC87ACE2006570100B230F7 /* NHRecordVideoUITests.m */,
+				0AC87AD02006570100B230F7 /* Info.plist */,
+			);
+			path = NHRecordVideoUITests;
+			sourceTree = "<group>";
+		};
+		0AC87ADC2006576000B230F7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0AC87ADD2006576B00B230F7 /* UIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0AC87AE6200659B900B230F7 /* NHPickerController.h */,
+				0AC87AE7200659B900B230F7 /* NHPickerController.m */,
+			);
+			path = UIImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC87AA62006570000B230F7 /* NHRecordVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC87AD32006570100B230F7 /* Build configuration list for PBXNativeTarget "NHRecordVideo" */;
+			buildPhases = (
+				0AC87AA32006570000B230F7 /* Sources */,
+				0AC87AA42006570000B230F7 /* Frameworks */,
+				0AC87AA52006570000B230F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHRecordVideo;
+			productName = NHRecordVideo;
+			productReference = 0AC87AA72006570000B230F7 /* NHRecordVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC87ABE2006570100B230F7 /* NHRecordVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC87AD62006570100B230F7 /* Build configuration list for PBXNativeTarget "NHRecordVideoTests" */;
+			buildPhases = (
+				0AC87ABB2006570100B230F7 /* Sources */,
+				0AC87ABC2006570100B230F7 /* Frameworks */,
+				0AC87ABD2006570100B230F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC87AC12006570100B230F7 /* PBXTargetDependency */,
+			);
+			name = NHRecordVideoTests;
+			productName = NHRecordVideoTests;
+			productReference = 0AC87ABF2006570100B230F7 /* NHRecordVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC87AC92006570100B230F7 /* NHRecordVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC87AD92006570100B230F7 /* Build configuration list for PBXNativeTarget "NHRecordVideoUITests" */;
+			buildPhases = (
+				0AC87AC62006570100B230F7 /* Sources */,
+				0AC87AC72006570100B230F7 /* Frameworks */,
+				0AC87AC82006570100B230F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC87ACC2006570100B230F7 /* PBXTargetDependency */,
+			);
+			name = NHRecordVideoUITests;
+			productName = NHRecordVideoUITests;
+			productReference = 0AC87ACA2006570100B230F7 /* NHRecordVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC87A9F2006570000B230F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NH;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = neghao;
+				TargetAttributes = {
+					0AC87AA62006570000B230F7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0AC87ABE2006570100B230F7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AC87AA62006570000B230F7;
+					};
+					0AC87AC92006570100B230F7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AC87AA62006570000B230F7;
+					};
+				};
+			};
+			buildConfigurationList = 0AC87AA22006570000B230F7 /* Build configuration list for PBXProject "NHRecordVideo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC87A9E2006570000B230F7;
+			productRefGroup = 0AC87AA82006570000B230F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC87AA62006570000B230F7 /* NHRecordVideo */,
+				0AC87ABE2006570100B230F7 /* NHRecordVideoTests */,
+				0AC87AC92006570100B230F7 /* NHRecordVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC87AA52006570000B230F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC87AB72006570100B230F7 /* LaunchScreen.storyboard in Resources */,
+				0AC87AB42006570100B230F7 /* Assets.xcassets in Resources */,
+				0AC87AB22006570100B230F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC87ABD2006570100B230F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC87AC82006570100B230F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC87AA32006570000B230F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC87AE0200657CC00B230F7 /* NHPlayViewController.m in Sources */,
+				0AC87ABA2006570100B230F7 /* main.m in Sources */,
+				0AC87AE42006584900B230F7 /* NHMainViewController.m in Sources */,
+				0AC87AE8200659B900B230F7 /* NHPickerController.m in Sources */,
+				0AC87AAC2006570100B230F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC87ABB2006570100B230F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC87AC42006570100B230F7 /* NHRecordVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC87AC62006570100B230F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC87ACF2006570100B230F7 /* NHRecordVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC87AC12006570100B230F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC87AA62006570000B230F7 /* NHRecordVideo */;
+			targetProxy = 0AC87AC02006570100B230F7 /* PBXContainerItemProxy */;
+		};
+		0AC87ACC2006570100B230F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC87AA62006570000B230F7 /* NHRecordVideo */;
+			targetProxy = 0AC87ACB2006570100B230F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AC87AB02006570100B230F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC87AB12006570100B230F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AC87AB52006570100B230F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC87AB62006570100B230F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AC87AD12006570100B230F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AC87AD22006570100B230F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC87AD42006570100B230F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = NHRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.NHRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AC87AD52006570100B230F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = NHRecordVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.NHRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AC87AD72006570100B230F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = NHRecordVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.NHRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHRecordVideo.app/NHRecordVideo";
+			};
+			name = Debug;
+		};
+		0AC87AD82006570100B230F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = NHRecordVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.NHRecordVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHRecordVideo.app/NHRecordVideo";
+			};
+			name = Release;
+		};
+		0AC87ADA2006570100B230F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = NHRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.NHRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHRecordVideo;
+			};
+			name = Debug;
+		};
+		0AC87ADB2006570100B230F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69U78V53ZN;
+				INFOPLIST_FILE = NHRecordVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neghao.studio.NHRecordVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHRecordVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC87AA22006570000B230F7 /* Build configuration list for PBXProject "NHRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC87AD12006570100B230F7 /* Debug */,
+				0AC87AD22006570100B230F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC87AD32006570100B230F7 /* Build configuration list for PBXNativeTarget "NHRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC87AD42006570100B230F7 /* Debug */,
+				0AC87AD52006570100B230F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC87AD62006570100B230F7 /* Build configuration list for PBXNativeTarget "NHRecordVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC87AD72006570100B230F7 /* Debug */,
+				0AC87AD82006570100B230F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC87AD92006570100B230F7 /* Build configuration list for PBXNativeTarget "NHRecordVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC87ADA2006570100B230F7 /* Debug */,
+				0AC87ADB2006570100B230F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC87A9F2006570000B230F7 /* Project object */;
+}
